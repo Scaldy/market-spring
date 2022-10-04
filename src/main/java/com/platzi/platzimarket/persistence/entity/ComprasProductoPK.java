@@ -2,7 +2,6 @@ package com.platzi.platzimarket.persistence.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-import javax.persistence.EmbeddedId;
 import java.io.Serializable;
 
 @Embeddable

@@ -52,4 +52,7 @@ public class ProductoRepository implements IProductRepository {
     public void delete(int productId){
         productoCrudRepository.deleteById(productId);
     }
+
+    public static class CompraRepository {
+    }
 }

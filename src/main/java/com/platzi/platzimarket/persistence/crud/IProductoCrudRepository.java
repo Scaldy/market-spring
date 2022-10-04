@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface IProductoCrudRepository extends CrudRepository<Producto, Integer> {
+    // Estos son Query Methods, los que se extienen al CRUD
+
     // @Query(value + "SELECT * FROM productos WHERE id_categoria = ?", nativeQuery = true)
     List<Producto> findByIdCategoriaOrderByNombreAsc(int idCategoria);
 
